@@ -51,5 +51,9 @@ Candidate responses are evaluated in two phases:
 
    3.**LLM Based Evaluation**     : To avoid hallucinations of LLM.
 
-# STREAMLIT UI
+# STREAMLIT 
+   Output of Gemma Model 
+   1. Question Generation https://github.com/KAVINESH23/AI-Interview-/blob/main/g2.png?raw=true
+   2.Candidate Response   https://github.com/KAVINESH23/AI-Interview-/blob/main/g2.png?raw=true
+   3.Downloaded Report    
   
