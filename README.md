@@ -2,8 +2,8 @@
    An AI-powered interview automation system that dynamically generates skill-based questions using LLMs (via Groq API) and evaluates candidate responses with structured prompt engineering and binary scoring, enabling scalable and intelligent assessments.
 
 # PURPOSE
-   Uses LLMs for real-time generation, not a fixed question bank
-  
+   The aim of this initiative is to transform conventional hiring methods by using AI-powered automation to remove human bias and inefficiencies. By employing prompt-based LLMs, the system creates customized interview questions on the spot, adjusting to various job positions and candidate answers without depending on set question lists. This method guarantees equitable, scalable, and smart assessments of candidates while greatly minimizing the manual work needed in hiring.  
+   
 # TECHNICAL STACK
   1.**LARGE LANGUAGE MODEL(LLMs)** - DeepSeek, Gemma2-9B-IT, LLaMA-3.3-70B hosted via Groq API
   
@@ -14,9 +14,19 @@
   4.**STREAMLIT**                  - Frontend  UI
   
   5.**PYTHON**                     - Core logic
+  
+# PROMPTING TECHNIQUES
+  **Few-Shot Prompting**        : Aptitude and Logical reasoning 
+  
+  **Chain-of-Thought**          : Coding questions
+
+  **Knowledge-Based**           : Technical stage
+
+  **Adaptive Graph of Thought** : Behavioral assessments
 
 # WORKFLOW 
-
+   Overall view of the project and here i have attached the workflow image
+https://github.com/KAVINESH23/AI-Interview-/blob/main/Workflow%20Diagram.png?raw=true
 
 # EVALUATION
  
@@ -33,3 +43,13 @@ Candidate responses are evaluated in two phases:
    - Results are stored and displayed after each response
 
 
+# FUTURE ENHANCEMENT
+
+   1.**Candidate Feedback Reports**: Generate AI-powered personalized improvement insights post-interview.
+
+   2.**Integration with HR Tools**: Seamless ATS/CRM connectivity for end-to-end hiring automation.
+
+   3.**LLM Based Evaluation**     : To avoid hallucinations of LLM.
+
+# STREAMLIT UI
+  
