@@ -26,8 +26,7 @@
 
 # WORKFLOW 
    Overall view of the project and here i have attached the workflow image
-https://github.com/KAVINESH23/AI-Interview-/blob/main/Workflow%20Diagram.png?raw=true
-
+https://github.com/KAVINESH23/AI-Interview-/blob/main/images/Workflow%20Diagram.png?raw=true
 # EVALUATION
  
 Evaluation Strategy
@@ -53,8 +52,19 @@ Candidate responses are evaluated in two phases:
 
 # STREAMLIT 
    Output of Gemma Model 
-   1. Question Generation https://github.com/KAVINESH23/AI-Interview-/blob/main/g2.png?raw=true (g1.png)
-   2.Candidate Response   https://github.com/KAVINESH23/AI-Interview-/blob/main/g2.png?raw=true  (g2.png)
+   1. **Question Generation**  https://github.com/KAVINESH23/AI-Interview-/blob/main/images/g1.png?raw=true
+   2. **Candidate Response**   https://github.com/KAVINESH23/AI-Interview-/blob/main/images/g2.png?raw=true
 
-# 
-  
+ 
+# PROJECT FILES
+   app.py                  Core Streamlit app integrating Groq API, LangChain orchestration, prompt engineering workflows, interview 
+                           automation logic, and UI components.
+                           
+   requirements.txt        Python dependencies
+   
+   .env                    It use the Groq API to host the LLMs 
+   
+   images                  Contains visual documentation of workflow ,streamlit ouput g1 for Question Generation and g2 for Candidate 
+                           Response
+                                              
+
