@@ -18,11 +18,6 @@ MODEL_CONFIG = {
         "max_retries": 5,
         "question_prefix": "SQL question:"
     },
-    "Mistral-Saba-24B": {
-        "temperature": 0.65,  
-        "max_retries": 4,     
-        "question_prefix": "Technical analysis required:"
-    },
     "gemma2-9b-it": {
         "temperature": 0.5,
         "max_retries": 4,
@@ -308,7 +303,7 @@ if "job_role" not in st.session_state:
         "binary_scores": [],
         "num_questions": 10,
         "ready_next": False,
-        "selected_model": "Mistral-Saba-24B",
+        "selected_model": "gemma2-9b-it",
         "prev_config": ("", "", "Aptitude", 10, "aptitude"),
         "stage": "aptitude"
     })
