@@ -57,14 +57,13 @@ Candidate responses are evaluated in two phases:
 
  
 # PROJECT FILES
-   app.py                  Core Streamlit app integrating Groq API, LangChain orchestration, prompt engineering workflows, interview 
-                           automation logic, and UI components.
+   app.py               -         Core Streamlit app integrating Groq API, LangChain orchestration, prompt engineering workflows, interview 
+                                  automation logic, and UI components.
                            
-   requirements.txt        Python dependencies
+   requirements.txt     -         Python dependencies
    
-   .env                    It use the Groq API to host the LLMs 
+   .env                 -        It use the Groq API to host the LLMs 
    
-   images                  Contains visual documentation of workflow ,streamlit ouput g1 for Question Generation and g2 for Candidate 
-                           Response
+   images               -        Contains visual documentation of workflow ,streamlit ouput g1 for Question Generation and g2 for Candidate Response
                                               
 
